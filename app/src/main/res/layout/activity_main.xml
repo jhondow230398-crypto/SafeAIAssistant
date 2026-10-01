@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Safe AI Assistant"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnEnableAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Enable Accessibility Service"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnExecute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Toggle Floating Assistant"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Security Status: Active\n- Calls, SMS, Banking &amp; Social: BLOCKED\n- QCam: ALLOWED"
+        android:lineSpacingExtra="4dp" />
+</LinearLayout>
