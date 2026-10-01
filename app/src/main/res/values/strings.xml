@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Safe AI Assistant</string>
+    <string name="accessibility_service_desc">Provides policy-governed local screen interactions and assistant capabilities.</string>
+</resources>
